@@ -1,7 +1,7 @@
 // Connect an event listener to the button "showFormBtn"
 // When this button is clicked, the provided function will be executed
 document
-  .getElementById("showFormBtn")
+  .getElementById("showFormBtn") // Professor suggested using querySelector instead of getElementById
   .addEventListener("click", async function () {
     document.getElementById("formContainer").style.display = "block";
   });
